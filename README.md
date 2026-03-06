@@ -1,49 +1,36 @@
 # AI Course Assignments Repository
 
-This repository contains my coursework deliverables:
-- **assignment1/**
-- **assignment2/**
-- **midtermproject/**
-- **finalproject/**
+This repository contains my projects in machine learning:
+# Machine Learning Projects
 
-Each folder includes the related **datasets** and **Jupyter notebooks (`.ipynb`)**.
+This repository contains practical machine learning projects organized by topic. Each folder focuses on a specific concept and includes a small, hands-on project for experimenting, exploring, and learning applied skills.
 
----
+## Topics
 
-## Folder Structure
+- `dataset-preparation/`
+- `data-visualization/`
+- `classification/`
+- `linear-regression/`
+- `polynomial-regression/`
+- `support-vector-machines/`
+- `decision-trees/`
+- `random-forest/`
+- `ensemble-methods/`
+- `dimensionality-reduction/`
+- `clustering/`
+- `anomaly-detection/`
+- `deep-learning/`
 
-.
-├── assignment1/
-│   ├── *.ipynb
-│   └── dataset files
-├── assignment2/
-│   ├── *.ipynb
-│   └── dataset files
-├── midtermproject/
-│   ├── *.ipynb
-│   └── dataset files
-└── finalproject/
-    ├── *.ipynb
-    └── dataset files
+## Project folder structure (each topic)
 
----
+Example: `linear-regression/`
 
-## How to Run (Google Colab)
+- `linear-regression/student_habits_performance.csv`
+- `linear-regression/linear_regression.ipynb`
+- `linear-regression/README.md`
 
-1) Open any notebook (`.ipynb`) from one of the folders.
+## How to use
 
-2) Upload it to **Google Colab** (or open it directly from GitHub in Colab).
+- Open a topic folder and launch the notebook (.ipynb) directly in Google Colab.
+- All datasets are included in the project folder, so you can run the notebook    without installing anything.
 
-3) Make sure the dataset path matches your notebook:
-   - If your dataset is inside the repo folder (example: `assignment1/data/...`), keep the same structure in Colab.
-   - You can also upload the dataset to Colab or mount Google Drive if needed.
-
-4) Click **Runtime → Run all**.
-
----
-
-## Notes
-
-- Notebooks are the main deliverables for each folder.
-- Plots and results are generated directly inside the notebooks.
-- If a notebook needs an extra library, it will install it inside the notebook (only when necessary).
